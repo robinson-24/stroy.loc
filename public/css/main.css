@@ -1,0 +1,23 @@
+table tbody tr:hover{
+    background-color: #e2edff;
+}
+
+table tbody tr td{
+    vertical-align: middle!important;
+}
+
+.deleteImage, .deleteImageItem{
+    position: absolute;
+    left: 135px;
+    cursor: pointer;
+}
+
+.noVisit{
+    background-color: #63fb63;
+}
+
+.alert-info{
+    width: 100%;
+    padding: 20px;
+    background-color: #d9edf7;
+}
