@@ -14,7 +14,7 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('css/ulightbox.css') }}">
     <link rel="stylesheet" href="{{ asset('css/font-awesome/web-fonts-with-css/css/fontawesome-all.css') }}">
     
-    <script type="text/javascript" src="{{ asset('js/jquery-1.11.2.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/jquery-3.2.1.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/ulightbox.js') }}"></script>
 
     {{ csrf_field() }}
@@ -161,5 +161,6 @@
     </table>
 </div>
 <!-- 0.01949 (s16) -->
+    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
